@@ -10,41 +10,39 @@
     line-height: 19px;
     text-align: center;
     border-radius: 8px;
-    padding: 14px 64px;
+    padding: 15px 64px;
+    cursor: pointer;
 }
 
 
-.button-primary {
+.button_primary {
     background: #4263EB;
-    cursor: pointer;
     color: var(--white);
 }
 
-.button-secondary {
+.button_secondary {
     background: var(--purple);
-    cursor: pointer;
     color: var(--white);
 }
 
-.button-alternate {
+.button_alternate {
     border: 1px solid var(--grey-3);
-    cursor: pointer;
     color: var(--black);
 }
 
-.button-primary--hover:hover {
+.button_primary:hover {
     background: var(--blue);
 }
 
-.button-secondary--hover:hover {
+.button_secondary:hover {
     background: #5028C6;
 }
 
-.button-alternate--hover:hover {
+.button_alternate:hover {
     border: 1px solid var(--black);
 }
 
-.button--disabled {
+.button:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    pointer-events: none;
 }
