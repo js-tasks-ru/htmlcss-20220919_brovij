@@ -1,4 +1,11 @@
 .preview {
-    height: 400px;
     background: #F9FAFC;
+    padding: 67px 165px 204px;
+}
+
+.preview__inner {
+    display: flex;
+    justify-content: center;
+    gap: 30px 30px;
+    flex-wrap: wrap;
 }
