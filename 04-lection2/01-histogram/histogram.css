@@ -32,7 +32,7 @@
     color: var(--black);
 }
 
-.histogram__link a{
+.histogram__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -40,6 +40,7 @@
     line-height: 24px;
     text-align: right;
     color: #4263EB;
+    text-decoration: none;
 }
 
 .histogram__block {
@@ -47,7 +48,7 @@
 	align-items: flex-end;
 	gap: 1px;
 	height: 50px;
-	padding-top:39px;
+	margin-top: 39px;
 }
 
 .histogram__column {
