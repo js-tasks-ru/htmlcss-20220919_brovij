@@ -1,0 +1,73 @@
+.calendar {
+    box-sizing: border-box;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 28px 34px 40px 26px;
+    width: fit-content; 
+}
+
+.calendar__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.calendar__wrapper {
+    position: relative;
+    padding-bottom: 100%;
+}
+
+.calendar__month {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #90A0B7;
+    margin-bottom: 8px;
+}
+
+
+.calendar__day {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #334D6E;
+}
+
+
+.calendar__inner {
+    display: grid;
+    grid-template-columns: repeat(7, 20px);
+    grid-template-rows: repeat(7, 1fr);
+    justify-items: center;
+    gap: 16px 20px;
+}
+
+.calendar_marked,
+.calendar_active {
+    padding: 8px 10px;
+}
+
+.calendar_marked {
+    background: #A0B1F5;
+    opacity: 0.2;
+}
+
+.calendar_active {
+    background: #4263EB;
+}
+
+
