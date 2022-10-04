@@ -23,7 +23,7 @@
     padding-bottom: 100%;
 }
 
-.calendar__month {
+.calendar__day_weekday {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -45,8 +45,8 @@
     line-height: 20px;
     text-align: center;
     color: #334D6E;
+    cursor: pointer;
 }
-
 
 .calendar__inner {
     display: grid;
@@ -56,17 +56,17 @@
     gap: 16px 20px;
 }
 
-.calendar_marked,
-.calendar_active {
+.calendar__day_marked,
+.calendar__day_active {
     padding: 8px 10px;
 }
 
-.calendar_marked {
+.calendar__day_marked {
     background: #A0B1F5;
     opacity: 0.2;
 }
 
-.calendar_active {
+.calendar__day_active {
     background: #4263EB;
 }
 
