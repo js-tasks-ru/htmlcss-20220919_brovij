@@ -1,4 +1,20 @@
 .preview {
-    height: 400px;
     background: #F9FAFC;
+}
+
+.preview__inner {
+    display: grid;
+    grid-template-columns: 229px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "aside content";
+    padding: 36px 0 92px;
+}
+
+.preview__aside {
+    grid-area: "aside";
+}
+
+.preview__content {
+    grid-area: "content";
 }

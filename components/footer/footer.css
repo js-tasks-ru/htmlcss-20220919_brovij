@@ -1,6 +1,19 @@
-.footer {
-    height: 200px;
-    padding: 72px 0 136px;
+.footer {}
+
+.footer__innner {
+    padding: 56px 0;
+}
+
+.footer__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+    text-align: center;
 }
 
 .footer__heading {
