@@ -1,5 +1,4 @@
 .modal {
-    padding: 40px 40px 47px;
     display: none;
     background-color: rgba(196, 196, 196, 0.5);
 	position: fixed;
@@ -13,14 +12,18 @@
     background: #FFFFFF;
     border-radius: 8px;
     padding: 30px 40px 33px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .modal__close {
     cursor: pointer;
     font-size: 30px;
     position: absolute;
-	top: 40px;
-	right: 60px;
+	top: 20px;
+	right: 40px;
 }
 
 .modal__title {
