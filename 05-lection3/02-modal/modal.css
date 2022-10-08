@@ -18,12 +18,14 @@
     transform: translate(-50%, -50%);
 }
 
-.modal__close {
+.modal__icon {
     cursor: pointer;
-    font-size: 30px;
     position: absolute;
 	top: 20px;
 	right: 40px;
+    width: 24px;
+    height: 24px;
+    color: #212429;
 }
 
 .modal__title {
