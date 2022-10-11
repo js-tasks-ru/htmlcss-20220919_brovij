@@ -31,6 +31,10 @@
 	display: none;
 }
 
+.tooltip__helper_preview {
+	display: block;
+}
+
 .tooltip__helper:after {
 	content: "";
 	width: 0;

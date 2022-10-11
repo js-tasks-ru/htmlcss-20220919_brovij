@@ -1,11 +1,18 @@
 .modal {
     display: none;
     background-color: rgba(196, 196, 196, 0.5);
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal_preview {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 300px;
 }
 
 .modal__window {
@@ -18,11 +25,16 @@
     transform: translate(-50%, -50%);
 }
 
+.modal__window_preview {
+    width: 200px;
+    height: 200px;
+}
+
 .modal__icon {
     cursor: pointer;
     position: absolute;
-	top: 20px;
-	right: 40px;
+    top: 20px;
+    right: 40px;
     width: 24px;
     height: 24px;
     color: #212429;
@@ -45,4 +57,9 @@
     font-size: 16px;
     line-height: 24px;
     color: var(--grey-4);
+}
+
+.modal__text_preview {
+    font-size: 13px;
+    line-height: 15px;
 }

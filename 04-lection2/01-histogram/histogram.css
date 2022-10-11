@@ -8,8 +8,7 @@
 
 .histogram__wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    gap: 47px;
 }
 
 .histogram__title {
