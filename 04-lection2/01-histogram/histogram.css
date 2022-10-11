@@ -1,5 +1,4 @@
 .histogram {
-    box-sizing: border-box;
     background: var(--white);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
@@ -11,6 +10,8 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+
+.histogram__left-side {}
 
 .histogram__title {
     font-family: 'Inter';
@@ -32,6 +33,8 @@
     color: var(--black);
 }
 
+.histogram__right-side {}
+
 .histogram__link {
     font-family: 'Inter';
     font-style: normal;
@@ -44,7 +47,7 @@
 }
 
 .histogram__block {
-	display: flex;
+    display: flex;
 	align-items: flex-end;
 	gap: 1px;
 	height: 50px;
@@ -52,6 +55,6 @@
 }
 
 .histogram__column {
-	background: var(--blue);
+    background: var(--blue);
 	flex: 1 1 9px;
 }
