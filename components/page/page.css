@@ -9,6 +9,10 @@
     height: 100%;
 }
 
+.page_latout {
+    background: #F9FAFC;
+}
+
 .page__header {
     grid-area: "header";
 }

@@ -1,16 +1,22 @@
 .header {}
 
-.header__wrapper-page {
+.header__wrapper_page {
     padding: 24px 0px 40px 0px;
 }
 
-.header__wrapper-layout {}
+.header__wrapper_layout {
+    padding: 24px 0px 60px 0px;
+}
 
 .header__top-side {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 38px;
+}
+
+.header__top-side_layout {
+    margin-bottom: 0px;
 }
 
 .header__menu {
@@ -86,14 +92,22 @@
 }
 
 @media screen and (max-width: 570px) {
-    .header__wrapper-page {
+    .header__wrapper_page {
         padding: 20px 0px 32px 0px;
+    }
+
+    .header__wrapper_layout {
+        padding: 20px 16px;
     }
 
     .header__top-side {
         justify-content: flex-start;
         margin-bottom: 48px;
         gap: 93px;
+    }
+
+    .header__top-side_layout {
+        margin-bottom: 32px;
     }
 
     .header__menu {

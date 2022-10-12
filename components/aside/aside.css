@@ -1,6 +1,6 @@
 .aside {}
 
-.aside__heading {
+.aside__title {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -8,6 +8,8 @@
     color: #000000;
     margin-bottom: 16px;
 }
+
+.aside__menu {}
 
 .aside__list {
     display: flex;
@@ -22,6 +24,8 @@
     color: var(--black);
 }
 
+.aside__item {}
+
 .aside__item:nth-last-child(2) {
     margin-bottom: 26px;
 }
@@ -33,4 +37,10 @@
     font-size: 14px;
     line-height: 22px;
     color: #D84910;
+}
+
+@media screen and (max-width: 570px) {
+    .aside {
+        display: none;
+    }
 }
