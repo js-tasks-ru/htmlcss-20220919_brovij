@@ -1,14 +1,19 @@
-.preview {
+.preview {}
+
+.preview__wrapper_page {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
     background: #F9FAFC;
+    padding: 67px 0px 92px 0px;
 }
 
-.preview__inner {
+.preview__wrapper_layout {
     display: grid;
-    grid-template-columns: 229px 1fr;
+    grid-template-columns: 300px 1fr;
     grid-template-rows: auto;
-    grid-template-areas: 
-    "aside content";
-    padding: 36px 0 92px;
+    grid-template-areas:
+    'aside content';
 }
 
 .preview__aside {
@@ -17,12 +22,10 @@
 
 .preview__content {
     grid-area: "content";
-    padding: 67px 165px 204px;
 }
 
-.preview__inner {
-    display: flex;
-    justify-content: center;
-    gap: 30px 30px;
-    flex-wrap: wrap;
+@media screen and (max-width: 570px) {
+    .preview__wrapper_layout {
+        grid-template-columns: 1fr;
+    }
 }
