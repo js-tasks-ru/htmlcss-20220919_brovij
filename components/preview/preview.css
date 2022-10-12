@@ -1,28 +1,9 @@
-.preview {
-    background: #F9FAFC;
-}
+.preview {}
 
-.preview__inner {
+.preview__wrapper-page {
     display: grid;
-    grid-template-columns: 229px 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "aside content";
-    padding: 36px 0 92px;
-}
-
-.preview__aside {
-    grid-area: "aside";
-}
-
-.preview__content {
-    grid-area: "content";
-    padding: 67px 165px 204px;
-}
-
-.preview__inner {
-    display: flex;
-    justify-content: center;
-    gap: 30px 30px;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    background: #F9FAFC;
+    padding: 67px 0px 92px 0px;
 }

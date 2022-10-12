@@ -42,3 +42,7 @@
 	left: 50%;
 	transform: translateX(-50%);
 }
+
+.tooltip__helper_preview {
+	display: block;
+}

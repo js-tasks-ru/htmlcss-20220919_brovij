@@ -20,8 +20,13 @@
 .calendar__inner {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    align-items: center;
     justify-items: center;
     gap: 16px 20px;
+}
+
+.calendar__inner_preview {
+    gap: 5px 5px;
 }
 
 .calendar__day_weekday {

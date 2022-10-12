@@ -11,6 +11,7 @@
     align-items: flex-start;
 }
 
+
 .histogram__left-side {}
 
 .histogram__title {
@@ -22,6 +23,10 @@
     color: var(--black);
     opacity: 0.8;
     padding-bottom: 6px;
+}
+
+.histogram__title_preview {
+    margin-right: 30px;
 }
 
 .histogram__total {
