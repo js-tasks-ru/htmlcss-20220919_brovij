@@ -6,6 +6,27 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
-
+        <form class="input">
+            <label for="input-default" class="input__title">Label</label>
+            <input type="text" class="input__field" id="input-default" placeholder="Placeholder">
+        </form>
+        <form class="input">
+            <label for="input-success" class="input__title">Success</label>
+            <div class="input__wrapper">
+                <input type="text" class="input__field input__field_success" id="input-success" placeholder="Success">
+                <svg class="input__icon input__icon_success">
+                    <use href="../../assets/images/sprite.svg#success">
+                </svg>
+            </div>
+        </form>
+        <form class="input">
+            <label for="input-error" class="input__title">Error</label>
+            <div class="input__wrapper">
+                <input type="text" class="input__field input__field_error" id="input-error" placeholder="Error">
+                <svg class="input__icon input__icon_error">
+                    <use href="../../assets/images/sprite.svg#error">
+                </svg>
+            </div>
+        </form>
     </body>
 </html>
