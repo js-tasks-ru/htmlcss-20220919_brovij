@@ -1,0 +1,58 @@
+.tabs {
+    position: relative;
+}
+
+.tabs__input {
+    position: absolute;
+    clip: rect(0,0,0,0);
+}
+
+.tabs__scroller {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.tabs__label {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-3);
+    cursor: pointer;
+}
+
+.tabs__label::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    background: var(--black);
+    display: none;
+}
+
+.tabs__content {
+    display: none;
+}
+
+#all-tab:checked ~ .tabs__scroller .tabs__label[for=all-tab],
+#complex-tab:checked ~ .tabs__scroller .tabs__label[for=complex-tab],
+#simple-tab:checked ~ .tabs__scroller .tabs__label[for=simple-tab] {
+    color: var(--black);
+}
+
+#all-tab:checked ~ .tabs__scroller .tabs__label[for=all-tab]::after,
+#complex-tab:checked ~ .tabs__scroller .tabs__label[for=complex-tab]::after,
+#simple-tab:checked ~ .tabs__scroller .tabs__label[for=simple-tab]::after {
+    display: block;
+}
+
+#all-tab:checked ~ .tabs__content_all,
+#complex-tab:checked ~ .tabs__content_complex,
+#simple-tab:checked ~ .tabs__content_simple {
+    display: block;
+}
