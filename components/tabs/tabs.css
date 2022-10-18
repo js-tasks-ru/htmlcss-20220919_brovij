@@ -7,7 +7,7 @@
     clip: rect(0,0,0,0);
 }
 
-.tabs__scroller {
+.tabs__menu {
     display: flex;
     gap: 40px;
     margin-bottom: 30px;
@@ -39,15 +39,15 @@
     display: none;
 }
 
-#all-tab:checked ~ .tabs__scroller .tabs__label[for=all-tab],
-#complex-tab:checked ~ .tabs__scroller .tabs__label[for=complex-tab],
-#simple-tab:checked ~ .tabs__scroller .tabs__label[for=simple-tab] {
+#all-tab:checked ~ .tabs__menu .tabs__label[for=all-tab],
+#complex-tab:checked ~ .tabs__menu .tabs__label[for=complex-tab],
+#simple-tab:checked ~ .tabs__menu .tabs__label[for=simple-tab] {
     color: var(--black);
 }
 
-#all-tab:checked ~ .tabs__scroller .tabs__label[for=all-tab]::after,
-#complex-tab:checked ~ .tabs__scroller .tabs__label[for=complex-tab]::after,
-#simple-tab:checked ~ .tabs__scroller .tabs__label[for=simple-tab]::after {
+#all-tab:checked ~ .tabs__menu .tabs__label[for=all-tab]::after,
+#complex-tab:checked ~ .tabs__menu .tabs__label[for=complex-tab]::after,
+#simple-tab:checked ~ .tabs__menu .tabs__label[for=simple-tab]::after {
     display: block;
 }
 
