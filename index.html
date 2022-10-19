@@ -13,9 +13,33 @@
                     <div class="header__wrapper_page">
                         <div class="header__top-side">
                             <div class="header__menu">
-                                <svg class="header__burger">
-                                    <use href="../../assets/images/sprite.svg#burger">
-                                </svg>
+                                <button class="burger" id="burger-menu-open">
+                                    <svg class="burger__icon-static">
+                                        <use href="../../assets/images/sprite.svg#burger">
+                                    </svg>
+                                </button>
+                                <div class="burger-menu" id="burger-menu">
+                                    <button class="burger" id="burger-menu-close">
+                                        <svg class="burger__icon-close">
+                                            <use href="../../assets/images/sprite.svg#burger-close">
+                                        </svg>
+                                    </button>
+                                    <div class="burger__wrapper">
+                                        <aside class="aside preview__aside">
+                                            <h4 class="aside__title">Components</h4>
+                                            <nav class="aside__menu">
+                                                <ul class="aside__list">
+                                                    <li class="aside__item">Modal</li>
+                                                    <li class="aside__item">Tooltip</li>
+                                                    <li class="aside__item">Avatar</li>
+                                                    <li class="aside__item">Calendar</li>
+                                                    <li class="aside__item">Histogram</li>
+                                                    <li class="aside__item">Custom form elements</li>
+                                                </ul>
+                                            </nav>
+                                        </aside>
+                                    </div>
+                                </div>
                             </div>
                             <div class="header__logo">
                                 <svg class="header__icon">
@@ -360,5 +384,6 @@
                 </div>
             </footer>
         </div>
+        <script defer src="./09-lection7/01-burger-menu/burger-menu.js"></script>
     </body>
 </html>

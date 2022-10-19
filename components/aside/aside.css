@@ -41,6 +41,6 @@
 
 @media screen and (max-width: 570px) {
     .aside {
-        display: none;
+        display: block;
     }
 }
