@@ -23,6 +23,11 @@
     display: none;
 }
 
+.header__burger {
+    width: 24px;
+    height: 24px;
+}
+
 .header__logo {}
 
 .header__icon {
