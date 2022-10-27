@@ -6,19 +6,43 @@
         <link rel="stylesheet" href="./burger-menu.css">
         <link rel="stylesheet" href="../../components/burger/burger.css">
         <script defer src="./burger-menu.js"></script>
+        <title>Burger</title>
     </head>
     <body>
         <button class="burger" id="burger-menu-open">
-            <svg class="burger__icon">
-                <use href="../../assets/images/sprite.svg#burger">
-            </svg>
+            <div class="burger__wrapper">
+                <svg class="burger__icon">
+                    <use href="../../assets/images/sprite.svg#burger">
+                </svg>
+            </div>
         </button>
         <div class="burger-menu" id="burger-menu">
-            <button class="burger" id="burger-menu-close">
-                <svg class="burger__icon">
-                    <use href="../../assets/images/sprite.svg#burger-close">
+            <div class="burger-menu__header">
+                <button class="burger" id="burger-menu-close">
+                    <svg class="burger__icon">
+                        <use href="../../assets/images/sprite.svg#burger-close">
+                    </svg>
+                </button>
+                <svg class="burger__logo">
+                    <use href="../../assets/images/sprite.svg#logo">
                 </svg>
-            </button>
+            </div>
+            <div class="burger-menu__body">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <h4 class="menu__title">Elements</h4>
+                        <a href="./template__avatar.html" class="menu__item">Avatar</a>
+                        <a href="./template__custom.html" class="menu__item">Custom form elements</a>
+                        <a href="./template__histogram.html" class="menu__item">Histogram</a>
+                    </ul>
+                    <ul class="menu__list">
+                        <h4 class="menu__title">Containers</h4>
+                        <a href="./template__tooltip.html" class="menu__item">Tooltip</a>
+                        <a href="./template__calendar.html" class="menu__item">Calendar</a>
+                        <a href="./template__modal.html" class="menu__item">Modal dialog</a>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </body>
 </html>

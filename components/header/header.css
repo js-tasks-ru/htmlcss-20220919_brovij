@@ -1,50 +1,39 @@
-.header {}
-
-.header__wrapper_page {
-    padding: 24px 0px 40px 0px;
+.header {
+    padding: 24px 0px 38px 0px;
 }
 
-.header__wrapper_layout {
-    padding: 24px 0px 60px 0px;
-}
-
-.header__top-side {
+.header__wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 38px;
 }
 
-.header__top-side_layout {
-    margin-bottom: 0px;
-}
-
-.header__menu {
+.header__burger {
     display: none;
 }
 
-.header__burger {
-    width: 24px;
-    height: 24px;
+.header__logo {
 }
-
-.header__logo {}
 
 .header__icon {
     width: 110px;
     height: 32px;
+    color: var(--font-color);
 }
 
-.header__inner {
+.header__right-side {
     display: flex;
-    align-items: center;
     gap: 56px;
+    align-items: center;
 }
 
-.header__nav {}
+.header__nav {
+}
 
 .header__list {
+    list-style: none;
     display: flex;
+    align-items: center;
     gap: 24px;
 }
 
@@ -54,28 +43,23 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: var(--grey-3);
+    display: flex;
+    align-items: center;
+    color: var(--gray-3);
     cursor: pointer;
 }
 
 .header__item:hover {
-    color: var(--black);
+    color: var(--hover-color);
 }
 
 .header__toggler {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 15px;
 }
 
-.header__sun {
-    width: 24px;
-    height: 24px;
-    color: var(--grey-3);
-}
-
-.header__toggle {}
-
+.header__sun,
 .header__moon {
     width: 24px;
     height: 24px;
@@ -88,38 +72,34 @@
     font-weight: 500;
     font-size: 50px;
     line-height: 64px;
-    color: var(--black);
+    color: var(--font-color);
 }
 
-@media screen and (max-width: 570px) {
-    .header__wrapper_page {
-        padding: 20px 0px 32px 0px;
+@media screen and (max-width: 320px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 16px 0px 32px 0px;
     }
 
-    .header__wrapper_layout {
-        padding: 20px 16px;
-    }
-
-    .header__top-side {
-        justify-content: flex-start;
+    .header__wrapper {
         margin-bottom: 48px;
-        gap: 93px;
+        justify-content: flex-start;
+        gap: 92px;
+        align-items: center;
     }
 
-    .header__top-side_layout {
-        margin-bottom: 32px;
-    }
-
-    .header__menu {
+    .header__burger {
         display: block;
     }
 
-    .header__inner {
+    .header__right-side {
         display: none;
     }
 
     .header__title {
-        font-weight: 400;
         font-size: 28px;
         line-height: 38px;
     }

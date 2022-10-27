@@ -1,14 +1,7 @@
+@import './normalize.css';
+
 @import '../fonts/fonts.css';
 
-@import '../../components/page/page.css';
-@import '../../components/header/header.css';
-@import '../../components/footer/footer.css';
-@import '../../components/preview/preview.css';
-@import '../../components/container/container.css';
-@import '../../components/aside/aside.css';
-@import '../../components/content/content.css';
-@import '../../components/card/card.css';
-@import '../../components/tabs/tabs.css';
 @import '../../03-lection1/01-button/button.css';
 @import '../../03-lection1/02-accordion/accordion.css';
 @import '../../04-lection2/01-histogram/histogram.css';
@@ -17,27 +10,68 @@
 @import '../../05-lection3/02-modal/modal.css';
 @import '../../05-lection3/03-calendar/calendar.css';
 @import '../../06-lection4/01-avatar/avatar.css';
+@import '../../07-lection5/01-checkbox/checkbox.css';
+@import '../../07-lection5/02-radio/radio.css';
 @import '../../07-lection5/03-toggler/toggler.css';
+@import '../../07-lection5/04-input/input.css';
+@import '../../09-lection7/01-burger-menu/burger-menu.css';
+
+@import '../../components/page/page.css';
+@import '../../components/container/container.css';
+@import '../../components/header/header.css';
+@import '../../components/preview/preview.css';
+@import '../../components/footer/footer.css';
+@import '../../components/burger/burger.css';
+@import '../../components/card/card.css';
+@import '../../components/tabs/tabs.css';
+@import '../../components/content/content.css';
+@import '../../components/menu/menu.css';
+@import '../../components/detail/detail.css';
 
 :root {
-    --white: #ffffff;
+    --white: #FFFFFF;
     --black: #212429;
-    --pink: #F784AD;
-    --purple: #7048E8;
-    --blue: #374FC7;
+    --blue: #4263EB;
     --red: #F03D3E;
-    --grey-1: #F8F9FA;
-    --grey-2: #DDE2E5;
-    --grey-3: #ACB5BD;
-    --grey-4: #495057;
+    --purple: #7048E8;
+    --gray-1: #F8F9FA;
+    --gray-2: #DDE2E5;
+    --gray-3: #ACB5BD;
+    --gray-4: #495057;
+
+    --border-color: var(--gray-2);
+    --font-color: var(--black);
+    --hover-color: var(--black);
+    --main-bg: var(--white);
+    --card-bg: var(--white);
+    --detail-bg: var(--white);
+    --tooltip-color: var(--black); 
 
     --error: var(--red);
     --success: var(--blue);
 
-    --primary: var(--blue);
-    --secondary: var(--purple);
+    --breakpoint-sm: 320px;
+    --breakpoint-md: 768px;
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
+html[data-theme-dark] {
+    --main-bg: var(--black);
+    --font-color: var(--gray-3);
+    --logo-icon: var(--white);
+    --card-bg: var(--gray-4);
+    --border-color: var(--white);
+    --detail-bg: var(--gray-4);
+    --hover-color: var(--white);
+    --tooltip-color: var(--blue);
+}
+
+html[data-theme-dark-mobile] {
+    --main-bg: var(--black);
+    --font-color: var(--gray-3);
+    --logo-icon: var(--white);
+    --card-bg: var(--gray-4);
+    --border-color: var(--white);
+    --detail-bg: var(--gray-4);
+    --hover-color: var(--white);
+    --tooltip-color: var(--blue);
 }

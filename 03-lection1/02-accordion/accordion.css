@@ -1,7 +1,6 @@
 /* Стилизация аккордеона */
 .accordion {
-  background: var(---white);
-  border: 1px solid var(--grey-3);
+  border: 1px solid var(--gray-3);
   border-radius: 8px;
   padding: 24px 32px;
 }
@@ -25,14 +24,14 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(---black);
+  color: var(--black);
 }
 
 .accordion__icon {
   cursor: pointer;
   width: 24px;
   height: 24px;
-  color: #212429;
+  color: var(--gray-4);
 }
 
 .accordion__text {
@@ -42,5 +41,5 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(--grey-4);
+  color: var(--gray-4);
 }

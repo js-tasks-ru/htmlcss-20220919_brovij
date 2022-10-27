@@ -1,9 +1,9 @@
 .card {
-    background: #FFFFFF;
+    background: var(--card-bg);
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
     padding: 34px;
-    pointer-events: none;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +15,20 @@
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+    pointer-events: none;
+}
+
+.card__checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 42px;
+}
+
+.card__radio {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .card__bottom-side {
@@ -29,7 +43,7 @@
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
-    color: var(--black);
+    color: var(--font-color);
 }
 
 .card__description {
@@ -38,5 +52,5 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: var(--black);
+    color: var(--font-color);
 }
