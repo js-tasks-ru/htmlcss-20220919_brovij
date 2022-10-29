@@ -5,6 +5,10 @@
     padding: 16px 24px 24px;
 }
 
+.histogram_preview {
+    width: 280px;
+}
+
 .histogram__wrapper {
     display: flex;
     justify-content: space-between;
@@ -59,10 +63,6 @@
 	gap: 1px;
 	height: 50px;
 	margin-top: 39px;
-}
-
-.histogram__bar_preview {
-    width: 280px;
 }
 
 .histogram__bars {
