@@ -33,11 +33,11 @@
     margin-bottom: 0;
 }
 
-.skeleton_small {
+.skeleton__line_small {
     width: 30%;
 }
 
-.skeleton_middle {
+.skeleton__line_middle {
     width: 70%;
 }
 
@@ -45,8 +45,8 @@
 }
 
 .skeleton__line,
-.skeleton_small,
-.skeleton_middle {
+.skeleton__line_small,
+.skeleton__line_middle {
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
