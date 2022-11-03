@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Medium.ttf), url(../fonts/Roboto/Roboto-MediumItalic.ttf);
+}
 
 @font-face {
     font-family: "Inter";
-    src: url(./inter/Inter-Regular.ttf);
-    src: url(./inter/Inter-Medium.ttf);
+    src: url(../fonts/Inter/Inter-Regular.ttf), url(../fonts/Inter/Inter-SemiBold.ttf), url(../fonts/Inter/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-Regular.ttf);
 }

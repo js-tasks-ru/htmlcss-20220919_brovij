@@ -5,18 +5,19 @@
 
 @media screen and (max-width: 1024px) {
     .container {
-        max-width: 768px;
+        margin: 0px 30px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .container {
-        margin: 0px 20px 0px 20px;
+        margin: 0px 20px;
     }
 }
 
-@media screen and (max-width: 570px) {
+
+@media screen and (max-width: 320px) {
     .container {
-        margin: 0px 16px 0px 16px;
+        margin: 0px 16px;
     }
 }

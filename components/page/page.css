@@ -7,20 +7,30 @@
     "preview"
     "footer";
     height: 100%;
-}
-
-.page_latout {
-    background: #F9FAFC;
+    background: var(--main-bg);
 }
 
 .page__header {
     grid-area: "header";
+    background: var(--main-bg);
 }
 
 .page__preview {
     grid-area: "preview";
+    background: var(--main-bg);
 }
 
 .page__footer {
     grid-area: "footer";
+    background: var(--main-bg);
+}
+
+.page_template {
+    background: #F9FAFC;
+}
+
+@media screen and (max-width: 320px) {
+    .page_template {
+        background: #FFFFFF;
+    }
 }

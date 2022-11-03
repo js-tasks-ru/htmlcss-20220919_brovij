@@ -3,7 +3,8 @@ html, body {
     margin: 0%;
 }
 
-header {}
+header {
+}
 
 h1 {
     background-color: red;
@@ -38,9 +39,11 @@ h2 {
     color: white;
 }
 
-ul {}
+ul {    
+}
 
-ol {}
+ol {    
+}
 
 li {
     color: white;
