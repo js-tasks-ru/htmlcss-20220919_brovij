@@ -23,18 +23,18 @@
     margin-left: 30px;
 }
 
-.detail_inner-checkbox {
+.detail_inner {
     display: flex;
 }
 
-.detail__checkbox {
+.detail_inner-checkbox {
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin-right: 42px;
 }
 
-.detail__radio {
+.detail_inner-radio {
     display: flex;
     flex-direction: column;
     gap: 16px;

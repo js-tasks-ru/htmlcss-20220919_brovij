@@ -6,6 +6,7 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
+    z-index: 1;
 }
 
 .modal__window {
@@ -19,13 +20,19 @@
     padding: 30px 40px 33px 30px;
 }
 
+.modal_preview {
+    display: block;
+    position: relative;
+    padding: 10px;
+}
+
 .modal_preview .modal__window {
     display: block;
     position: relative;
-    padding: 5px;
     transform: none;
     left: 0;
     top: 0;
+    width: auto;
 }
 
 .modal__title {
