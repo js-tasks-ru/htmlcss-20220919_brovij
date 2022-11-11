@@ -54,3 +54,9 @@
     line-height: 19px;
     color: var(--font-color);
 }
+
+@media screen and (max-width: 576px) {
+    .card {
+        padding: 10px;
+    }
+}

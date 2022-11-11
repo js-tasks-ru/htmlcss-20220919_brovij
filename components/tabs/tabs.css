@@ -63,10 +63,19 @@
     display: block;
 }
 
+@media screen and (max-width: 576px) {
+    .tabs__content_html,
+    .tabs__content_css {
+        max-width: 576px;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .tabs__content_html,
     .tabs__content_css {
-        max-width: 320px;
+        width: 320px;
         overflow: hidden;
         overflow-x: scroll;
     }
